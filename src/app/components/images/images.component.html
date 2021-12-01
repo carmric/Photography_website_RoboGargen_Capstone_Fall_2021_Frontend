@@ -1,0 +1,9 @@
+<div class="photo">
+    <div class="grid">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let image of images">
+                <img [src]="'http://localhost:5000/images/' + image.filename" class="rounded float-left" class="img-fluid">
+            </div>
+        </div>        
+    </div>
+</div>

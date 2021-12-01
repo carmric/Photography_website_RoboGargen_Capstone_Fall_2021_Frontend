@@ -1,0 +1,28 @@
+.container{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.card{
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #9e9b9b;
+    box-shadow: 1px 1px 1px black;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body {
+    margin: 20px;
+    border: black;
+    border-radius: 20px;
+    background-color: #d7bedb;
+    padding: 50px;
+}
+
+h3{
+    color: #727272;
+}

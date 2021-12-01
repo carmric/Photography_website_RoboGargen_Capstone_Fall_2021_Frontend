@@ -1,0 +1,8 @@
+img {
+    float: center;
+    width:  400px;
+    height: 700px;
+    object-fit: cover;
+    margin: auto;
+    padding: 10px;
+}

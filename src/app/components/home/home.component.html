@@ -1,0 +1,74 @@
+<div class="row g-0">
+  <!-- This is the 2nd nav bar - it is not global - it will only appear on the home screen. -->
+  <div class="col-2">
+    <div class="navCapital">
+      <div class="leftNav">
+        <ul class="nav flex-column navbar-dark bg-dark" style="text-transform: capitalize;">
+          <li class="nav-item" *ngFor="let category of categories">
+            <a routerLink="/images" [queryParams]="{id: category.id}" class="nav-link">{{ category.title }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAROUSEL -->
+  <div class="col-10">
+    <div class="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="http://localhost:5000/images/portrait_1.jpg" class="d-block w-100"
+              alt="Example of portrait photography">
+          </div>
+          <div class="carousel-item">
+            <img src="http://localhost:5000/images/arch_1.jpg" class="d-block w-100"
+              alt="Example of architectural photography">
+          </div>
+          <div class="carousel-item">
+            <img src="http://localhost:5000/images/sport_1.jpg" class="d-block w-100"
+              alt="Example of sport photography">
+          </div>
+          <div class="carousel-item">
+            <img src="http://localhost:5000/images/land_1.jpg" class="d-block w-100"
+              alt="Example of landscape photography">
+          </div>
+          <div class="carousel-item">
+            <img src="http://localhost:5000/images/wildlife_1.jpg" class="d-block w-100"
+              alt="Example of landscape photography">
+          </div>
+          <div class="carousel-item">
+            <img src="http://localhost:5000/images/wedding_1.jpg" class="d-block w-100"
+              alt="Example of wedding photography">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

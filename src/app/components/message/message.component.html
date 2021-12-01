@@ -1,0 +1,21 @@
+<!-- Implement how you want to display the messages... see task.component.html -->
+<div class="container">
+    <div class="card">
+        <h4 class="card-title">{{ message.name }}</h4>
+
+        <div class="container">
+            <div class="card-body">
+                <h3>{{ message.email }}</h3>
+                <hr>
+                <h3>{{ message.phone}}</h3>
+                <hr>
+                <h3>{{ message.message }}</h3>
+                <hr>
+                <h3>{{ message.created_at | date }}</h3>
+                <hr>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Spend time displaying the messages in a nicer way -->

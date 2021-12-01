@@ -1,0 +1,18 @@
+.contactUs{
+    margin: 200px 300px;
+    border:black;
+    border-radius: 20px;
+    background-color: #9e9b9b;
+    padding: 50px;
+}
+
+.form-control {
+    background-color:#d7bedb;
+    border: black;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+.button {
+    box-shadow: 10px 5px 5px black;
+}

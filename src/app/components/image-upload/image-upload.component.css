@@ -1,0 +1,27 @@
+.container{
+    background-color:#9e9b9b;
+    border-radius: 20px;
+    margin-top: 20px;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.form-select {
+    background-color:#d7bedb;
+    border: black;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+.form-control {
+    background-color:#d7bedb;
+    border: black;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2;
+}

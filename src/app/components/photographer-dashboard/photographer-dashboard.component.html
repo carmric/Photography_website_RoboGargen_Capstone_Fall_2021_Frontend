@@ -1,0 +1,10 @@
+
+<div *ngFor="let messageItem of contacts">
+    <!-- The below line actually displays, using property binding -->
+    <app-message [message]="messageItem"></app-message>
+    <!-- "app-message" - represents the message component -->
+</div>
+
+<div class="container">
+    <a routerLink="/image-upload" class="navLink">Image Upload</a>
+</div>

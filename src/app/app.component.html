@@ -1,0 +1,85 @@
+<!-- PUT ALL OF THE GLOBAL STUFF HERE -->
+<!-- This is the Global (top) nav bar. It will appear on all pages of the website. -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="d-flex flex-grow-1">
+    <span class="w-100 d-lg-none d-block"></span>
+    <!-- The above line of code gives a hidden spacer to center brand on mobile -->
+    <a class="navbar-brand" href="#"> Ever Photography </a>
+    <div class="w-100 text-right">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+  <div class="collapse navbar-collapse flex-grow-0" id="myNavbar">
+    <ul class="navbar-nav ml-auto flex-nowrap">
+        <li class="nav-item">
+          <a routerLink="home" class="nav-link" style="color:#e271f1">Home</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/contact-us" class="nav-link" style="color:#e271f1">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="login" class="nav-link" style="color:#e271f1">Log In</a>
+        </li>
+    </ul>
+  </div>
+</nav>
+<div class="text-center">
+</div>
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="myModalLabel">Select</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<!-- This next section of code is the footer -->
+<!-- <div class="footer-dark">
+  <footer>
+    <div class="container">
+      <div class="row"> -->
+        <!-- <div class="col-sm-6 col-md-3 item"> -->
+        <!-- <h3>Services</h3>
+          <ul>
+            <li><a href="#">Web design</a></li>
+            <li><a href="#">Development</a></li>
+            <li><a href="#">Hosting</a></li>
+          </ul>
+        </div> -->
+        <!-- <div class="col-sm-6 col-md-3 item">
+          <h3>About</h3>
+          <ul>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div> -->
+        <!-- <div class="col-md-6 item text">
+          <h3>Ever Photography</h3>
+          <p>Add moto, or company values here.</p>
+        </div> -->
+        <!-- <div class="col item social"><a href="#"><i 
+              class="icon ion-social-facebook"></i></a><a href="#"><i
+              class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a
+            href="#"><i 
+              class="icon ion-social-instagram"></i></a>
+        </div> -->
+      <!-- </div>
+      <p class="copyright">Ever Photography © 2021</p>
+    </div>
+  </footer>
+</div> -->
